@@ -115,17 +115,23 @@ button {
 }
 
 @media screen and (max-width: 375px) {
-    .container{
+    *{
         display: flex;
         flex-direction: column;
     }
 
     .card-satu{
+        width: 100%;
         border-radius: 10px 10px 0 0;
-        font-size: 1px;
     }
 
     .card-tiga{
+        width: 100%;
         border-radius: 0 0 10px 10px;
+    }
+
+    .btn-card1{
+        display: flex;
+        margin-top: 300px;
     }
 }
